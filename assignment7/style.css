@@ -1,0 +1,148 @@
+.navbar {
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 30px;
+    padding: 15px;
+}
+
+.navbar>input {
+    width: 20%;
+    margin-left: 40px;
+    padding: 2px;
+}
+
+.navbar>a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    margin-left: auto;
+    margin: 105px;
+}
+
+.navbar>a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.navbar>button {
+    background-color: orange;
+    color: black;
+    padding: 2px;
+}
+
+.card>img {
+    width: 400px;
+    height: 340px;
+
+}
+
+.card>h1 {
+    font-size: 25px;
+}
+
+.card>p {
+    font-size: 15px;
+}
+
+.card {
+    margin-left: 100px;
+    display: inline-block;
+    margin-top: 100px;
+    display: inline-block;
+    border-width: 1px 4px 12px 4px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px black;
+}
+
+.card>button {
+    padding: 8px 20px;
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.card:hover {
+    box-shadow: 4px 4px 50px black;
+}
+
+/* card 2 starts  */
+
+.card2>img {
+    width: 400px;
+    height: 340px;
+}
+
+.card2>h1 {
+    font-size: 25px;
+}
+
+.card2>p {
+    font-size: 15px;
+}
+
+.card2 {
+    margin-left: 100px;
+    display: inline-block;
+    margin-top: 100px;
+    display: inline-block;
+    border-width: 1px 4px 12px 4px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px black;
+}
+
+.card2>button {
+    padding: 8px 20px;
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.card2:hover {
+    box-shadow: 4px 4px 50px black;
+}
+
+/* card3 starts here */
+
+.card3>img {
+    /* width: 300px;
+    height: 300px; */
+    border-radius: 8px 8px 8px 8px;
+    width: 400px;
+    height: 340px;
+}
+
+.card3>h1 {
+    font-size: 25px;
+}
+
+.card3>p {
+    font-size: 15px;
+}
+
+.card3 {
+    margin-left: 100px;
+    display: inline-block;
+    margin-top: 100px;
+    display: inline-block;
+    border-width: 1px 4px 12px 4px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 20px black;
+}
+
+.card3>button {
+    padding: 8px 20px;
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.card3:hover {
+    box-shadow: 4px 4px 50px black;
+}

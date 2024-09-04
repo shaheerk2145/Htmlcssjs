@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.dropdown-menu{
+    display: inline-block;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+.form-control{
+    width: 20px;
+    height: 100px;
+}
+.box1,.box2{
+    display: flex;
+    border: 1px solid red;
+}
+input{
+    width: 300px;
+}
+.box2{
+    display: flex;
+    color: white;
+    border: 1px solid red;
+}
+.box3{
+    border: 1px solid red;
+    width: 100%;
+    padding: 20px;
+}
+table{
+    width: 100%;
+    padding: 10px;
+    
+}

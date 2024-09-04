@@ -1,0 +1,41 @@
+h1 {
+    font-size: larger;
+    font-family: sans-serif;
+}
+
+h2 {
+    font-size: small;
+    font-family: sans-serif;
+}
+
+td {
+    font-size: medium;
+    width: 150px;
+}
+
+.left-image {
+    display: flex;
+    justify-content: flex-start;
+
+}
+
+.right-image {
+    display: block;
+    justify-content: flex-end;
+}
+
+.center-text {
+    text-align: center;
+    flex-grow: 1;
+    font-size: small;
+
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+table button{
+    padding: 15px;
+    width: 200px;
+}

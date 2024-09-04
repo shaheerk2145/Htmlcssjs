@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seylani Welfare Int Trust</title>
+    <link href="./style.css" rel="stylesheet">
+</head>
+<style>
+    .city {
+        display: flex;
+        margin-left: 200px;
+        justify-content: space-between;
+        margin-right: 270px;
+    }
+
+    .city select {
+        width: 540px;
+        padding: 10px;
+    }
+
+    .name {
+        display: flex;
+        margin-left: 200px;
+        justify-content: space-between;
+        margin-right: 270px;
+    }
+
+    .paragraph {
+        margin-left: 200px;
+        margin-right: 270px;
+        font-size: medium;
+        font-family: arial
+    }
+
+    .boxes {
+        margin-left: 200px;
+        font-size: large;
+    }
+
+    .boxes select {
+        width: 1200px;
+        padding: 10px;
+
+    }
+
+    .karachi {
+        display: flex;
+        margin-left: 200px;
+        justify-content: space-between;
+        margin-right: 270px;
+    }
+
+    .karachi input {
+        width: 525px;
+        padding: 10px;
+    }
+
+    .karachi select {
+        width: 580px;
+        padding: 10px;
+    }
+
+    .nic {
+        display: flex;
+        margin-left: 200px;
+        justify-content: space-between;
+        margin-right: 270px;
+    }
+
+    .mail {
+        display: flex;
+        margin-left: 200px;
+        justify-content: space-between;
+        margin-right: 270px;
+
+    }
+
+    .button {
+        margin-left: 200px;
+        padding: 20px;
+        width: 1200px;
+        margin-right: 270px;
+    }
+</style>
+
+<body>
+    <center>
+        <h1>IMPORTANT ANNOUNCEMENT</h1>
+        <h2>Onsite Admissions are open for Islamabad only
+            (Courses are Web & App Development, Cyber Security & CCNA)
+        </h2>
+        <hr>
+        <img src="./images/syelanilogo.png" width="400" height="200">
+    </center>
+    <div class="container">
+        <div class="left-images">
+            <img src="./images/fblogo.png" width="30" height="30" align="left">
+            <img src="./images/intsalogo.png" width="30 " height="30" align="left">
+            <img src="./images/youtube.png" width="30 " height="30" align="left">
+        </div>
+        <div class="center-text">
+            <h1>
+                <font size="10"></font>COURSE REGISTERATION FORM
+            </h1>
+            <p align="center">
+                <font size="4">Services-Education-Registeraton</font>
+            </p>
+        </div>
+
+        <div class="right-image">
+            <img src="./images/sp.png" width="150" height="30" align="right">
+        </div>
+    </div>
+
+
+
+
+    <br><br><br>
+    <hr>
+    <!-- Form -->
+    <form>
+
+        <center>
+            <table>
+
+                <tr>
+                    <td>
+                        <button>
+                            <a href="./index.html">New Application</a>
+                        </button>
+
+                    </td>
+                    <td>
+                        <button><a href="./downloadfrom.html">Download ID Card</a>
+                        </button>
+                    </td>
+                        
+                    <td>
+                        <button><a href="./result.html">Results</a></button>
+
+                    </td>
+                </tr>
+            </table>
+        </center>
+        <hr>
+        <br><br><br>
+        <span class="city">
+            <a>Select city<br>
+                <select>
+                    <option value="" disabled selected>Select City</option>
+                    <option value="karachi">karachi</option>
+                    <option value="Islamabad">Islamabad</option>
+                </select>
+            </a>
+            <a> Select Course<br>
+                <select>
+                    <option value="Select Course " disabled selected>Select Course </option>
+                    <option value="Web & App Development">Web & App Development</option>
+                    <option value="Cyber Security">Cyber Security</option>
+                    <option value="CCNA">CCNA</option>
+
+                </select>
+            </a>
+
+        </span>
+
+
+
+        <!-- names -->
+
+        <br><br>
+
+        <span class="name">
+            <label for="Full Name">
+                Full Name<br>
+                <input type="text" placeholder="Full Name" name="Full Name" style="padding: 10px; width: 525px;"
+                    required>
+            </label>
+
+
+            <label>
+                Father Name<br>
+                <input type="text" placeholder="Father Name" style="padding: 8px; width: 560px;" required>
+            </label>
+
+        </span>
+
+        <br><br>
+
+        <div class="mail">
+            <label>
+                Email<br>
+                <input type="email" placeholder="Email" size="70px" style="padding: 8px;" required>
+            </label>
+
+            <label>
+                Phone<br>
+                <input type="number" placeholder="phone number" style="width: 560px; padding: 8px;">
+            </label>
+
+        </div>
+        <br><br>
+
+
+        <!-- nicc -->
+
+        <div class="nic">
+            <label for="CNIC">
+                CNIC<br>
+                <input type="number" placeholder="CNIC " style="width: 525px; padding: 8px;" required>
+            </label>
+            <label for="Father's CNIC(optional)">
+                Father's CNIC(optional)<br>
+                <input type="number" placeholder="Father's CNIC" style="width: 560px; padding: 8px;" required>
+            </label>
+
+        </div>
+
+        <br><br>
+        <div class="karachi">
+            <label>
+                Date of Birth<br>
+                <input type="date" required>
+            </label>
+            <a>Select Geneder<br>
+                <select required>
+                    <option value="Select Gender" disabled selected>Select Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                    <option value="Others">Others</option>
+                </select>
+            </a>
+
+        </div>
+        <br><br>
+        <div style="margin-left: 200px; font-size: large;">
+            <label for="">
+                Address<br>
+                <input type="text" placeholder="Address" size="162" style="padding: 8px;" required>
+            </label>
+            <br><br>
+
+        </div>
+
+        <div class="boxes">
+            <p>
+                Last Qualification<br>
+                <select>
+                    <option value="" selected disabled>Last Qualification</option>
+                    <option value="">Grade 5-8</option>
+                    <option value="">Matric</option>
+                    <option value="">Intermediate</option>
+                    <option value="">Undergraduate</option>
+                    <option value="">Graduate</option>
+                    <option value="">Masters</option>
+                    <option value="">PHD</option>
+                </select>
+                <br><br>
+            <p>
+                <strong>Do you have a laptop?</strong> <br>
+                <select required>
+                    <option value="" disabled selected>Do you have a laptop? </option>
+                    <option value="">Yes</option>
+                    <option value="">No</option>
+                </select>
+            </p>
+        </div>
+
+        <br><br>
+        <div class="paragraph">
+            <p>1.I hereby, solemnly declare that the data and facts mentioned herein are true and correct to the best of
+                my knowledge.
+                Further, I will abide by all the established and future regulations and policies of SWIT.<br>
+            <p>2.I hereby accept the responsibilities of good conduct and guarantee that I will not be involved in any
+                other activity,
+                political or ethical, but learning during my stay in the program.<br></p>
+            <p>3.Defiance will render my admission canceled at any point in time.<br></p>
+            <P>4.Upon completion, of the course, I will complete the required project by SWIT.<br></P>
+            <p>5.It's mandatory for female students to wear abaya/hijab in the class.
+            </p>
+        </div>
+
+
+
+        <center>
+            <button class="button">
+                <a href="https://www.example.com">Submit</a>
+            </button>
+        </center>
+
+
+
+    </form>
+
+</body>
+
+</html>
